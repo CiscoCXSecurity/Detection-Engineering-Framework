@@ -4,7 +4,7 @@
 
 This detection engineering framework allows for strategic and effective decision making in a phased manner when dealing with planning, developing, delivering and improving new use cases for the SOC.
 
-Each of these phases is separately addressed hereafter. Before we look at th phases, it is important to note that in this framework itself, two-way traceability is important. Thus, it must be possible to connect elements at the operational layer to elements at the tactical and ultimately strategical layers and vice versa. This allows the SOC to show how business drivers are implemented in operational monitoring (top-down) and which monitoring rules relate to which specific threats and business drivers (bottom-up). 
+Each of these phases is separately addressed hereafter. Before we look at the phases, it is important to note that in this framework itself, two-way traceability is important. Thus, it must be possible to connect elements at the operational layer to elements at the tactical and ultimately strategical layers and vice versa. This allows the SOC to show how business drivers are implemented in operational monitoring (top-down) and which monitoring rules relate to which specific threats and business drivers (bottom-up). 
 
 
 ## 🔗 Two-Way Traceability
