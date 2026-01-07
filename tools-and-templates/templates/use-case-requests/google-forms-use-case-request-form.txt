@@ -1,0 +1,54 @@
+# Google Forms Use Case Request Form (Codified)
+
+## Sections & Questions:
+
+### Section 1: Request Information
+- Request ID (Short answer)
+- Date Submitted (Date)
+- Submitted By (Short answer)
+- Priority Level (Multiple choice: Critical, High, Medium, Low)
+- Expected Timeline (Short answer)
+
+### Section 2: Business Context
+- Business Driver (Multiple choice: Risk Mitigation, Threat Response, Compliance Requirement)
+- Business Justification (Paragraph)
+- Affected Business Units (Checkboxes: IT Operations, Finance, HR, Legal/Compliance, Operations, Other)
+- Business Criticality (Paragraph)
+
+### Section 3: Technical Requirements
+- Primary Objective (Paragraph)
+- Success Criteria (Paragraph)
+- Out of Scope (Paragraph)
+- Required Data Sources (Checkboxes: Windows Event Logs, Linux/Unix Logs, Network Traffic, DNS Logs, Proxy/Web Logs, Firewall Logs, EDR, Cloud Platform Logs, Application Logs, Database Logs, Other)
+- Affected Systems/Assets (Paragraph)
+- Attack Techniques (Short answer)
+- Known Indicators (Paragraph)
+- Attack Scenarios (Paragraph)
+
+### Section 4: Stakeholder Information
+- Business Owner (Short answer)
+- Technical Owner (Short answer)
+- Incident Response Team (Short answer)
+- Compliance/Legal (Short answer)
+
+### Section 5: Implementation Planning
+- Environment (Multiple choice: Production, Staging/Test, Development, All Environments)
+- Performance Considerations (Paragraph)
+- Integration Requirements (Paragraph)
+- Detection Metrics (Paragraph)
+- Operational Metrics (Paragraph)
+
+### Section 6: Approval and Tracking
+- Approval Workflow (Paragraph)
+- Status Tracking (Paragraph)
+
+### Section 7: Additional Notes
+- Special Considerations (Paragraph)
+- Related Use Cases (Paragraph)
+
+## Instructions:
+- Create a new form in Google Forms.
+- Add sections and questions as listed above.
+- Use Multiple choice and Checkboxes for categorical fields.
+- Use Short answer and Paragraph for descriptive fields.
+- Use this structure for manual creation in Google Forms.

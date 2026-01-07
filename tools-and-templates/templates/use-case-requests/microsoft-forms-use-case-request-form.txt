@@ -1,0 +1,54 @@
+# Microsoft Forms Use Case Request Form (Codified)
+
+## Sections & Questions:
+
+### Section 1: Request Information
+- Request ID (Text)
+- Date Submitted (Date)
+- Submitted By (Text)
+- Priority Level (Choice: Critical, High, Medium, Low)
+- Expected Timeline (Text)
+
+### Section 2: Business Context
+- Business Driver (Choice: Risk Mitigation, Threat Response, Compliance Requirement)
+- Business Justification (Text)
+- Affected Business Units (Multiple Choice: IT Operations, Finance, HR, Legal/Compliance, Operations, Other)
+- Business Criticality (Text)
+
+### Section 3: Technical Requirements
+- Primary Objective (Text)
+- Success Criteria (Text)
+- Out of Scope (Text)
+- Required Data Sources (Multiple Choice: Windows Event Logs, Linux/Unix Logs, Network Traffic, DNS Logs, Proxy/Web Logs, Firewall Logs, EDR, Cloud Platform Logs, Application Logs, Database Logs, Other)
+- Affected Systems/Assets (Text)
+- Attack Techniques (Text)
+- Known Indicators (Text)
+- Attack Scenarios (Text)
+
+### Section 4: Stakeholder Information
+- Business Owner (Text)
+- Technical Owner (Text)
+- Incident Response Team (Text)
+- Compliance/Legal (Text)
+
+### Section 5: Implementation Planning
+- Environment (Choice: Production, Staging/Test, Development, All Environments)
+- Performance Considerations (Text)
+- Integration Requirements (Text)
+- Detection Metrics (Text)
+- Operational Metrics (Text)
+
+### Section 6: Approval and Tracking
+- Approval Workflow (Text)
+- Status Tracking (Text)
+
+### Section 7: Additional Notes
+- Special Considerations (Text)
+- Related Use Cases (Text)
+
+## Instructions:
+- Create a new form in Microsoft Forms.
+- Add sections and questions as listed above.
+- Use Choice and Multiple Choice for categorical fields.
+- Use Text for descriptive fields.
+- Use this structure for manual creation in Microsoft Forms.

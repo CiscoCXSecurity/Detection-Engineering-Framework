@@ -1,0 +1,42 @@
+# ServiceNow Use Case Request Form (Codified)
+
+## Record Producer: Use Case Request
+
+### Variables/Fields:
+- Request ID (Single Line Text)
+- Date Submitted (Date)
+- Submitted By (Single Line Text)
+- Priority Level (Choice: Critical, High, Medium, Low)
+- Expected Timeline (Single Line Text)
+- Business Driver (Choice: Risk Mitigation, Threat Response, Compliance Requirement)
+- Business Justification (Multi Line Text)
+- Affected Business Units (Multiple Choice: IT Operations, Finance, HR, Legal/Compliance, Operations, Other)
+- Business Criticality (Multi Line Text)
+- Primary Objective (Multi Line Text)
+- Success Criteria (Multi Line Text)
+- Out of Scope (Multi Line Text)
+- Required Data Sources (Multiple Choice: Windows Event Logs, Linux/Unix Logs, Network Traffic, DNS Logs, Proxy/Web Logs, Firewall Logs, EDR, Cloud Platform Logs, Application Logs, Database Logs, Other)
+- Affected Systems/Assets (Multi Line Text)
+- Attack Techniques (Single Line Text)
+- Known Indicators (Multi Line Text)
+- Attack Scenarios (Multi Line Text)
+- Business Owner (Single Line Text)
+- Technical Owner (Single Line Text)
+- Incident Response Team (Single Line Text)
+- Compliance/Legal (Single Line Text)
+- Environment (Choice: Production, Staging/Test, Development, All Environments)
+- Performance Considerations (Multi Line Text)
+- Integration Requirements (Multi Line Text)
+- Detection Metrics (Multi Line Text)
+- Operational Metrics (Multi Line Text)
+- Approval Workflow (Multi Line Text)
+- Status Tracking (Multi Line Text)
+- Special Considerations (Multi Line Text)
+- Related Use Cases (Multi Line Text)
+
+## Instructions:
+- Create a Record Producer named "Use Case Request" in Service Catalog.
+- Add the variables/fields above with the specified types.
+- Use Choice and Multiple Choice for categorical fields.
+- Use Multi Line Text for descriptive fields.
+- Use this structure for manual creation or import into ServiceNow.

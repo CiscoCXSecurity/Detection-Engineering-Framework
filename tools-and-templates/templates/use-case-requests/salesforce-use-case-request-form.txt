@@ -1,0 +1,42 @@
+# Salesforce Use Case Request Form (Codified)
+
+## Object: Use_Case_Request__c
+
+### Fields:
+- Request_ID__c (Text)
+- Date_Submitted__c (Date)
+- Submitted_By__c (Text)
+- Priority_Level__c (Picklist: Critical, High, Medium, Low)
+- Expected_Timeline__c (Text)
+- Business_Driver__c (Picklist: Risk Mitigation, Threat Response, Compliance Requirement)
+- Business_Justification__c (Long Text)
+- Affected_Business_Units__c (Multi-Select Picklist: IT Operations, Finance, HR, Legal/Compliance, Operations, Other)
+- Business_Criticality__c (Long Text)
+- Primary_Objective__c (Long Text)
+- Success_Criteria__c (Long Text)
+- Out_of_Scope__c (Long Text)
+- Required_Data_Sources__c (Multi-Select Picklist: Windows Event Logs, Linux/Unix Logs, Network Traffic, DNS Logs, Proxy/Web Logs, Firewall Logs, EDR, Cloud Platform Logs, Application Logs, Database Logs, Other)
+- Affected_Systems_Assets__c (Long Text)
+- Attack_Techniques__c (Text)
+- Known_Indicators__c (Long Text)
+- Attack_Scenarios__c (Long Text)
+- Business_Owner__c (Text)
+- Technical_Owner__c (Text)
+- Incident_Response_Team__c (Text)
+- Compliance_Legal__c (Text)
+- Environment__c (Picklist: Production, Staging/Test, Development, All Environments)
+- Performance_Considerations__c (Long Text)
+- Integration_Requirements__c (Long Text)
+- Detection_Metrics__c (Long Text)
+- Operational_Metrics__c (Long Text)
+- Approval_Workflow__c (Long Text)
+- Status_Tracking__c (Long Text)
+- Special_Considerations__c (Long Text)
+- Related_Use_Cases__c (Long Text)
+
+## Instructions:
+- Create a custom object named `Use_Case_Request__c`.
+- Add the fields above with the specified types.
+- Use picklists and multi-select picklists for categorical fields.
+- Use Long Text for descriptive fields.
+- Use this structure for manual creation or import into Salesforce.
